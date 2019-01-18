@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    
     <Container/>
   </div>
 </template>
@@ -10,7 +11,7 @@ import Container from '@/components/Container.vue';
 export default {
   name: 'home',
   components: {
-    Container,
-  },
+    Container
+  }
 };
 </script>
